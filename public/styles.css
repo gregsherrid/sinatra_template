@@ -1,0 +1,12 @@
+html, body {
+	margin: 0;
+	font-family: sans-serif;
+	color: #444;
+}
+
+h1 {
+	font-style: bold;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 30pt;
+}

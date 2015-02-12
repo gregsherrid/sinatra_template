@@ -1,0 +1,15 @@
+production:
+  database:
+    host: xxxx.rds.amazonaws.com
+    db_name: prime_tracker_db
+    port: 5432
+    username: prime_tracker_admin
+    password: swordfish440202
+
+development:
+  database:
+    host: localhost
+    db_name: kraken_tasker_db
+    port: 5432
+    username: kraken_tasker
+    password: kotsea

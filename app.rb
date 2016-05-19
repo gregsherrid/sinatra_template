@@ -6,11 +6,10 @@ require "sinatra/activerecord"
 
 Dir["./models/*.rb"].each{|file| require file }
 
-get '/info' do
+get "/info" do
 	erb :info
 end
 
-get '/test' do
-	puts "yo you yo"
-	"I said 'yo you yo'"
+get "/" do
+	"Greg's Sinatra Template App"
 end

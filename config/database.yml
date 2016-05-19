@@ -1,0 +1,19 @@
+production:
+  host: xxxx.rds.amazonaws.com
+  database: sinatra_template_db
+  port: 5432
+  username: sinatra_db_admin
+  password: swordfish440202
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  host: localhost
+  database: sinatra_template_db
+  port: 5432
+  username: sinatra_db_admin
+  password: swordfish
+  adapter: postgresql
+  encoding: unicode
+  pool: 5

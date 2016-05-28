@@ -17,3 +17,13 @@ development:
   adapter: postgresql
   encoding: unicode
   pool: 5
+
+test:
+  host: localhost
+  database: sinatra_template_test_db
+  port: 5432
+  username: sinatra_db_admin
+  password: swordfish
+  adapter: postgresql
+  encoding: unicode
+  pool: 5

@@ -20,5 +20,5 @@ RSpec.configure do |config|
 end
 
 def app
-	MatildaApp
+	Sinatra::Application
 end

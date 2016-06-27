@@ -9,7 +9,7 @@ FactoryGirl.find_definitions
 
 RSpec.configure do |config|
 	config.expect_with :rspec do |c|
-		c.syntax = [:should,:expect]
+		c.syntax = [:should, :expect]
 
 		require 'database_cleaner'
 		config.before(:suite) do
